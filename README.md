@@ -53,22 +53,17 @@ Esta plataforma busca:
 
 El objetivo es amplificar la emoción del deporte mediante automatización inteligente.
 
-## 🏗 Arquitectura de la Plataforma
-
-Home
- └── Torneos
-      └── Partidos
-            └── Highlights
-
-
+## Home
 <p align="center">
   <img src="https://github.com/paulalenisb/Como-la-vio/blob/main/public/Home.png" width="900"/>
 </p>
 
+## Torneos
 <p align="center">
   <img src="public/Torneos.png" width="900"/>
 </p>
 
+## Partidos
 <p align="center">
   <img src="public/Partidos.png" width="900"/>
 </p>
