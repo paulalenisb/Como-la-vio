@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- ===================================================== -->
+<!-- ====================== HEADER ======================= -->
+<!-- ===================================================== -->
 
-## Getting Started
+<h1 align="center">⚽ Cómo La Vió — AI Sports Highlights</h1>
 
-First, run the development server:
+<p align="center">
+  Plataforma de highlights deportivos impulsada por automatización y detección de eventos.
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+  <strong>Revive cada gol. Cada atajada. Cada momento clave.</strong>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-16-black" />
+  <img src="https://img.shields.io/badge/TypeScript-blue" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC" />
+  <img src="https://img.shields.io/badge/AI-Automation-purple" />
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Sobre el Proyecto
 
-## Learn More
+**Cómo La Vió** es una plataforma que permite registrar automáticamente los momentos más importantes de un partido y generar clips de highlights pocos minutos después de finalizar el encuentro.
 
-To learn more about Next.js, take a look at the following resources:
+En lugar de editar manualmente partidos completos, el sistema:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Detecta goles, atajadas, oportunidades y jugadas clave.
+- Genera aproximadamente 20 clips por partido.
+- Produce videos cortos de 22 segundos.
+- Publica el contenido minutos después de finalizar el juego.
+- Organiza todo por torneo y fecha.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Sin edición manual.  
+Sin tiempos de espera largos.  
+Solo los mejores momentos.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧠 Visión de Producto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Muchos torneos amateur y semiprofesionales no cuentan con sistemas estructurados de highlights.
+
+Esta plataforma busca:
+
+- Democratizar el acceso a momentos destacados.
+- Aumentar la interacción con torneos.
+- Facilitar la repetición ilimitada de jugadas.
+- Organizar contenido por fecha y competencia.
+- Ofrecer narración opcional profesional.
+
+El objetivo es amplificar la emoción del deporte mediante automatización inteligente.
+
+---
+
+## 🏗 Arquitectura de la Plataforma
+
+```text
+Home
+ └── Torneos
+      └── Partidos
+            └── Highlights
+
+<p align="center">
+  <img src="./public/Home.png" width="900"/>
+</p>
+
+<p align="center">
+  <img src="./public/Torneos.png" width="900"/>
+</p>
+
+<p align="center">
+  <img src="./public/Partidos.png" width="900"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
