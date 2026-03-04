@@ -53,6 +53,9 @@ Esta plataforma busca:
 
 El objetivo es amplificar la emoción del deporte mediante automatización inteligente.
 
+[Ver el proyecto en vivo acá]( https://como-la-vio.vercel.app/)
+
+
 ## Home
 <p align="center">
   <img src="https://github.com/paulalenisb/Como-la-vio/blob/main/public/Home.png" width="900"/>
